@@ -37,8 +37,6 @@ def solution(t):
             right[p] = c
         root[c] = p
 
-    #어처피 끝값에서 올려야 하니까 이거 안해도 되는 줄 알았는데 아닌가봄
-    #왜그런거지?
     c = N
     while root[c] != 0:
         c = root[c]
